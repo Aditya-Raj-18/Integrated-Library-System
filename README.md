@@ -50,3 +50,100 @@ library-system/
     ├── server.js
     ├── package.json
     └── package-lock.json
+
+Installation
+Clone the repository:
+git clone https://github.com/your-username/Integrated-Library-System.git
+cd Integrated-Library-System
+Go to the middleware folder:
+cd middleware
+Install dependencies:
+npm install
+Start the server:
+npm start
+Open the app in your browser:
+http://localhost:3000/login.html
+Default Admin Login
+Username: admin
+Password: admin123
+API Features
+The Express server provides endpoints for:
+
+Login
+Add member
+View members
+Delete member
+Add book
+View books
+Delete book
+Issue book
+Return books
+View transactions
+View overdue records
+Dashboard summary reports
+C Backend Demo
+The backend/library.c file contains a simple C program that demonstrates book management using a linked list.
+
+To compile it:
+
+gcc backend/library.c -o library
+To run it:
+
+./library
+On Windows:
+
+library.exe
+Important Note
+Do not upload node_modules to GitHub. It can be regenerated using:
+
+npm install
+If your JSON files contain real member or transaction data, clear them before uploading publicly.
+
+Author
+Created by Aditya.
+
+
+**Recommended `.gitignore`**
+```gitignore
+node_modules/
+npm-debug.log*
+.env
+
+.DS_Store
+Thumbs.db
+
+*.exe
+*.o
+*.out
+
+.vscode/
+.idea/
+
+# Optional: ignore local/private data if needed
+# data/*.json
+Files You Should Upload
+Upload these:
+backend/library.c
+data/books.json
+data/members.json
+data/member.json
+data/transactions.json
+frontend/login.html
+frontend/dashboard.html
+frontend/style.css
+frontend/script.js
+middleware/server.js
+middleware/package.json
+middleware/package-lock.json
+README.md
+.gitignore
+Do not upload these:
+
+middleware/node_modules/
+MinGW Installer.lnk
+GitHub About Section
+Description:
+A web-based integrated library management system using HTML, CSS, JavaScript, Node.js, Express, JSON storage, and a C backend demo.
+
+Topics:
+library-management-system nodejs expressjs javascript html css json c-programming web-application
